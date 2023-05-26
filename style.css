@@ -1,0 +1,348 @@
+
+body { 
+    background-color: #F0F0F0;
+    text-align: center; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+  
+ .classmenu {
+    display: block;
+    font-size: 19px;
+    position: absolute;
+    left: 0; 
+    top: 28px;
+    
+}
+
+
+
+
+
+  .classmenu a {
+    color: #F0F0F0;
+    background-color: gray;
+    color: var(--bgc-clair);
+    display: flex;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #24242481;
+    margin-left: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+    
+}
+
+  
+  .classmenu i{
+    color: #F0F0F0;
+    display: none;
+    margin-right: 10px; 
+}
+
+    .classmenu {
+    display: initial;
+    margin-right: 10px;
+    display: block;
+    font-size: 11px;
+}
+    .deroule {
+    display: none;
+}
+
+    ul .sousmenu li a{
+    padding-left: 28px;
+}
+
+ul .deuxiemesousmenu li a{
+    color: #F0F0F0;
+    padding-left: 45px;
+}
+
+
+
+ul{
+    font-size: 18px;
+    list-style: none;
+    margin-left: 0;
+    display: block;
+    padding: 0;
+    padding-right: 150px;
+}
+ul li ul {
+    color: #F0F0F0;
+    padding-right: 0;
+}
+
+#menubtn {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+h1 {
+    color: #ED786A;
+    font-family: 'Arvo', serif;
+}
+
+h2 { 
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    font-size: 20px;
+    
+ }
+
+ img {
+    object-fit: cover;
+    width: 100%;
+    
+ }
+ 
+
+ .taillestrong {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color:  #777777;;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+.phraseimg {
+    
+    display:flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.centered {
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    margin: 10px;
+}
+.orangebtn {
+    
+    color: white;
+    padding: 20px;
+    width: 350px;
+    border: 10px ;
+    border-radius: 2px;
+    background-color: #ED786A;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.btngris {
+    padding: 10px;
+    
+    color: white;
+    background-color: #777777;
+    border-radius: 5px;
+}
+
+
+h3 {
+    color:  #777777;;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h4 {
+    color:  #777777;;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.imagegauche { 
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.chiffresgauche {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.deuxiemegauche {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+ 
+
+.formulaire {
+    
+    margin-block: 5px;
+    margin-top: 15px;   
+}
+
+input {
+    margin: 10px;
+}
+
+#msg  {
+    margin: 10px;
+}
+
+
+.listeicones div {
+    /*display: list-item; */
+    margin: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+
+
+.bold {
+    
+    font-weight: 300;
+}
+
+
+
+
+@media  (min-width: 768px) {
+
+    .contener {
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+       
+
+  }
+   .contener div {
+    width: 30%;
+    margin: 5px;
+   }
+
+   .centered {
+    width: 100%;
+    font-size: 40px;
+    position: absolute;
+   }
+
+
+   .contenerwrapperdatesimages {
+    flex-direction: row;
+    display: flex;
+    
+    margin: 5px;
+    }
+
+   .wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   
+
+   .contenerimagesdates {
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 30px;
+
+   }
+   
+
+   .formulairepluslien {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+   }
+
+ 
+
+   
+}
+
+@media (min-width: 992px ) {
+
+    #menubtn {
+        display: none;
+    }
+
+
+    .classmenu {
+        display: inline-block;
+        
+    }
+
+    .classmenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .classmenu ul li {
+        display: inline-block;
+    }
+
+    .classmenu ul li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .classmenu ul li:hover {
+        background-color: #f4f4f4;
+    }
+
+    .classmenu ul li ul {
+        display: none;
+        position: absolute;
+        min-width: 200px;
+    }
+
+    .classmenu ul li:hover > ul {
+        display: inherit;
+    }
+
+    .classmenu ul li ul li {
+        width: 100%;
+        display: list-item;
+        position: relative;
+    }
+
+    .classmenu ul li ul li a {
+        padding: 10px;
+        background-color: #fff;
+        color: #000;
+    }
+
+    
+}
